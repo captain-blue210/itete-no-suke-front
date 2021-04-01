@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <nuxt-link to="/user/pain-record">test</nuxt-link>
-  </div>
+  <div>test<input type="text" /></div>
 </template>
 
 <script lang="ts">
