@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link to="/user/pain-record">test</nuxt-link>
+    <nuxt-link to="/user">test</nuxt-link>
   </div>
 </template>
 
