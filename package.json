@@ -10,7 +10,8 @@
     "lint:fix": "eslint --fix ./**/*.{js,ts,vue}",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "eslint ./**/*.{js,ts,vue}",
-    "test": "jest"
+    "test": "jest",
+    "test:dev": "jest --watch"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint"
@@ -21,6 +22,7 @@
     }
   },
   "dependencies": {
+    "@nuxt/typescript": "^2.8.1",
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/composition-api": "^0.22.4",
