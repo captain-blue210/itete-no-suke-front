@@ -3,12 +3,11 @@ name: ci
 on:
   push:
     branches:
-      - main
-      - master
+      - '**'
+      - '!main'
   pull_request:
     branches:
       - main
-      - master
 
 jobs:
   ci:
