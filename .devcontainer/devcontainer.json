@@ -21,7 +21,15 @@
 		"xabikos.javascriptsnippets",
 		"esbenp.prettier-vscode",
 		"octref.vetur",
-		"dariofuzinato.vue-peek"
+		"dariofuzinato.vue-peek",
+		"ionutvmi.path-autocomplete",
+		"christian-kohler.path-intellisense",
+		"msjsdiag.debugger-for-chrome",
+		"mikestead.dotenv",
+		"andys8.jest-snippets",
+		"sdras.vue-vscode-snippets",
+		"nucllear.vscode-extension-auto-import",
+		"bradlc.vscode-tailwindcss"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
